@@ -55,7 +55,7 @@ Develop some tests to the rest endpoint that validate the following requests to 
 
 
 # postman
-![Test Posman 2023-08-04 131545.png](gen/Test Posman 2023-08-04 131545.png)
+[Test Posman 2023-08-04 131545.png](gen/Test Posman 2023-08-04 131545.png)
 [AkkodisTestAlexPostman.postman_collection.json](postman/AkkodisTestAlexPostman.postman_collection.json)
 
 # specs
