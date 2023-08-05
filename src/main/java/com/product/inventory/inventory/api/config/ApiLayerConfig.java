@@ -41,16 +41,5 @@ public class ApiLayerConfig {
     public ApiLayerConfig() {
         log.debug("ApiLayerConfig loaded");
     }
-
-    @Bean
-    public OpenAPI customOpenAPI() {
-        return new OpenAPI()
-                .info(new Info()
-                        .title("Test and exercise for Akkodis")
-                        .version("0.1")
-                        .description("In the company's e-commerce database we have the PRICES table that reflects the final price (pvp) and the rate that applies to a product in a chain between certain dates")
-                        .termsOfService("http://swagger.io/terms/")
-                        .license(new License().name("Apache 2.0").url("http://springdoc.org")));
-    }
 }
 

@@ -15,7 +15,7 @@ class InventoryApplicationTest {
      * @param context The Spring Web Application context.
      */
     @Test
-    public void contextLoads(WebApplicationContext context) {
+    void contextLoads(WebApplicationContext context) {
         assertNotNull(context);
     }
 }
